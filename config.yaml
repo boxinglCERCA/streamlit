@@ -7,6 +7,6 @@ evaluations:
 
   - name: "Narrative Autoscoring"
     id: narrative_autoscoring
-    description_file: "reports/Narrative_autoscoring_eval_report.md"
-    data_file: "data/narrative_autoscoring_data.xlsx"
+    description_file: "reports/narrative_autoscoring_eval_report.md"
+    data_file: "data/Narrative_autoscoring_data.xlsx"
     type: rubric_analysis
