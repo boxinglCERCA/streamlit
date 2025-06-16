@@ -1,0 +1,12 @@
+evaluations:
+  - name: "RATER vs OpenAI Model"
+    id: rater_vs_openai
+    description_file: "reports/rater_vs_nonrater_eval_report.md"
+    data_file: "data/evaluation_summary.csv"
+    type: preference_summary
+
+  - name: "Narrative Autoscoring"
+    id: narrative_autoscoring
+    description_file: "reports/narrative_autoscoring_eval_report.md"
+    data_file: "data/narrative_autoscoring_data.xlsx"
+    type: rubric_analysis
